@@ -12,7 +12,7 @@ const Balance = () => {
     return (
         <Fragment>
             <h4>Your Balance</h4>
-            <h1 id = "balance">${numberWithCommas(total)}</h1>
+            <h1 id = "balance">₹{numberWithCommas(total)}</h1>
         </Fragment>
     )
 }
